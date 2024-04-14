@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: chinook_data
+    tables:
+      - name: employee
+      - name: customers
+      - name: genre
