@@ -10,7 +10,6 @@ models:
             tests:
                 - unique
                 
-
     - name: my_second_dbt_model
       description: "A starter dbt model"
       columns:
