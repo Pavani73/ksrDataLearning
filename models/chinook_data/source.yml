@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: sample
+    database: dbt_learning
+    schema: chinook_data
+    tables:
+       - name: artist
+       - name: customers
+       - name: genre
+
+  - name: sample1
+    database: snowflake_sample_data
+    schema: tpcds_sf100tcl
+    tables:
+         - name:  inventory
+         
