@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+   - name: sample1
+     database: snowflake_sample_data
+     schema: tpcds_sf100tcl
+     tables:
+      - name: inventory
+      
+
+
+      
