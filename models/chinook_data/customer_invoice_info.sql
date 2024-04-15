@@ -9,7 +9,7 @@ customers as (select * from {{ ref('customers') }}),
 invoice as (select * from {{ ref('invoice') }}),
 employee as (select * from {{ ref('employee') }})
 
-Select c.cust_id, i.invoiceid,e.emp_name
+Select c.cust_id, i.invoice_id,e.emp_name
 
 from customer as c
 
