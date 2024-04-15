@@ -1,13 +1,21 @@
 version: 2
 
 sources:
-  - name: sample
+  - name: sample1
     database: dbt_learning
     schema: chinook_data
     tables:
       - name: customers
       - name: genre
-      
+        
+  - name: pavani
+    database: SAMPLE
+    schema: TEST
+    tables:
+      - name: STUDENT
+
+
+
+
+
   
-
-

@@ -3,4 +3,5 @@
         materialized='table'
     )
 }}
-select * from  {{ source('chinook_data', 'genre') }}
+select * from  {{ source('sample1', 'genre') }}
+
