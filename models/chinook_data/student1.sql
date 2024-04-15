@@ -2,4 +2,4 @@
     config(materialized='table')
 }}
 
-select NAME, AGE from {{ source('pavani', 'STUDENT') }}
+select * from {{ source('pavani', 'STUDENT') }}

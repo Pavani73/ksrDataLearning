@@ -7,12 +7,13 @@ sources:
     tables:
       - name: customers
       - name: genre
-        
+
   - name: pavani
-    database: SAMPLE
-    schema: TEST
+    database: DBT_SAMPLE
+    schema: DBT_SCHEMA
     tables:
       - name: STUDENT
+      
 
 
 
