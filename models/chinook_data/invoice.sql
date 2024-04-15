@@ -1,0 +1,8 @@
+{{
+    config(
+        materialized='table'
+    )
+}}
+
+select * from {{ source('sample1', 'invoice') }} limit 10
+
