@@ -8,14 +8,14 @@ sources:
       - name: customers
       - name: genre
       - name: employee
-      - name: invoice
-      
+      - name: invoice    
   - name: pavani
     database: DBT_SAMPLE
     schema: DBT_SCHEMA
     tables:
       - name: STUDENT
-      
+
+
 
       
 

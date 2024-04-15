@@ -4,5 +4,5 @@
     )
 }}
 
-select * from {{ source('sample1', 'invoice') }} limit 10
+select * from {{ source('sample1', 'invoice') }} 
 
