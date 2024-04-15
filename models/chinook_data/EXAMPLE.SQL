@@ -4,4 +4,4 @@
     )
 }}
 
-select * from {{ source('sample1', 'employee') }}
+SELECT * FROM DBT_LEARNING.CHINOOK_DATA.EMPLOYEE
