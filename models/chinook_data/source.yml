@@ -27,7 +27,10 @@ sources:
             count: 10
             period: hour
         loaded_at_field: load_timestamp
-        
+      - name: genre_sub_info
+        freshness:
+          
+       
 
 
 
