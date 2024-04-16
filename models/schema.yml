@@ -7,10 +7,9 @@ models:
     - name: cust_id
       description: This column will provide you customer ID which will be unique all the time.
       tests:
-        - not_null   
+        - not_null
         - unique
         
-
  - name: employee
    description : This model witll provide all the employee information
    
