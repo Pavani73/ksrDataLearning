@@ -42,6 +42,8 @@ models:
       +materialized: table
 vars:
   employeeid: 3
+  var_filter :  9
   
+
 
       

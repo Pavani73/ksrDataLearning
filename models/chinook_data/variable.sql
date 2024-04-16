@@ -1,6 +1,8 @@
 
 select * from {{ ref('employee') }}
-where employeeid = {{ var('employeeid') }}
+where employeeid = {{ var('employeeid',10) }}
+
+
 
 
 
