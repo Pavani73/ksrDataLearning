@@ -1,0 +1,22 @@
+version: 2
+
+models:
+ - name: customers
+   description: This model will provide a comprehsnive customer information for analysis.
+   columns:
+    - name: cust_id
+      description: This column will provide you customer ID which will be unique all the time.
+      tests:
+        - not_null   
+        - unique
+        
+
+ - name: employee
+   description : This model witll provide all the employee information
+   
+
+
+
+              
+            
+
