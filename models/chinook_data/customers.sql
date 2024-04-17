@@ -15,3 +15,6 @@ from {{ source('sample1', 'customers') }}
 
 
 
+
+
+

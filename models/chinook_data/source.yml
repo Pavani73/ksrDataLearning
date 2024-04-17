@@ -28,16 +28,7 @@ sources:
             period: hour
         loaded_at_field: load_timestamp
       - name: genre_sub_info
-        freshness:
-          
-       
-
-
-
-        
-
-      
-        
+        freshness:    
   - name: pavani
     database: DBT_SAMPLE
     schema: DBT_SCHEMA

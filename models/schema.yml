@@ -10,24 +10,12 @@ models:
         - not_null
         - unique
         
- - name: employee
-   description : This model witll provide all the employee information
-   columns:
-     - name: employeeid
-       description: col_description
-       tests:
-        - relationships:
-            field: support_rep_id
-            to: ref('customers')
- - name: genre_sub_info 
-   description : This model witll provide all the genre_sub_info  information
-   columns:
-     - name: name
-       description: col name
-       tests: 
-         - accepted_values:
-             values:['rock','jazz']
-    
+ 
+
+
+
+ 
+          
  
 
 
