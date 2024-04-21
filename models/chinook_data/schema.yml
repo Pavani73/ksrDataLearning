@@ -24,7 +24,7 @@ models:
      - name: invoice_count
        description: col_description
        tests:
-         - not_null:
+         - not_null
          - count_validation: 
             severity: warn
 
