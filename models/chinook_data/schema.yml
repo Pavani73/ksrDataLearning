@@ -9,7 +9,18 @@ models:
       tests:
         - not_null
         - unique
+ - name: employee
+   description : This model witll provide all the employee information
+   columns:
+     - name: employeeid
+       description: col_description
+       tests:
+        - relationships:
+            field: support_rep_id
+            to: ref('customers') 
+                  
         
+
         
  
  
