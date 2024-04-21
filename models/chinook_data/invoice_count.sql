@@ -3,8 +3,12 @@
         materialized='table', tags = ['jira_101']
     )
 }}
-select customerid,count(invoiceid) from {{ source('chinook_data', 'invoice') }}
+select customerid,count(invoiceid) from 
+{{ source('sample1', 'invoice') }}
 group by customerid
+
+
+
 
 
 
