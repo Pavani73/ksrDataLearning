@@ -1,11 +1,27 @@
 {{
-    config(
-        materialized='table', tags = ['jira_101']
-    )
+
+config(
+
+materialized='table', tags = ['jira_101']
+
+)
+
 }}
-select customerid,count(invoiceid) from 
+
+select
+
+customerid,count(invoiceid) as invoice_count from
+
 {{ source('sample1', 'invoice') }}
+
 group by customerid
+
+
+
+
+
+
+
 
 
 

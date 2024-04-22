@@ -1,48 +1,33 @@
 version: 2
 
 models:
- - name: customers
-   description: This model will provide a comprehsnive customer information for analysis.
-   columns:
-    - name: cust_id
-      description: This column will provide you customer ID which will be unique all the time.
-      tests:
-        - not_null
-        - unique
- - name: employee
-   description : This model witll provide all the employee information
-   columns:
-     - name: employeeid
-       description: col_description
-       tests:
-        - relationships:
-            field: support_rep_id
-            to: ref('customers') 
- - name: invoice_count
-   description : This model will fetch the no of albums which customer has placed
-   columns:
-     - name: invoice_count
-       description: col_description
-       tests:
-         - not_null
-         - count_validation: 
-            severity: warn
-
-        
-
-
-        
- 
- 
+  - name: customers
+    description: This model will provide a comprehsnive customer information for analysis.
+    columns:
+      - name: cust_id
+        description: This column will provide you customer ID which will be unique all the time.
+        tests:
+          - not_null
+          - unique
+  - name: employee
+    description: This model witll provide all the employee information
+    columns:
+      - name: employeeid
+        description: col_description
+        tests:
+          - relationships:
+              field: support_rep_id
+              to: ref('customers')
+  - name: invoice_count
+    description: This model will fetch the no of albums which customer has placed
+    columns:
+      - name: invoice_count
+        description: col_description
+        tests:
+          - not_null
+          - count_validation:
+             severity: warn
+             
 
 
-
- 
-          
- 
-
-
-
-              
-            
 

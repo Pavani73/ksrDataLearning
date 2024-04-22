@@ -35,6 +35,9 @@ sources:
     schema: DBT_SCHEMA
     tables:
       - name: STUDENT
+      
+
+      
 
       
       
