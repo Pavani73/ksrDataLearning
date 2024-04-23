@@ -1,6 +1,7 @@
 {{
     config(
-        materialized='table', tags= '[jira_987]'
+        materialized='table', tags= '[jira_987]',
+        pre_hook = "insert into model_execution_log values('started', current_timestamp(),{{this.name}})"
     )
 }}
 
