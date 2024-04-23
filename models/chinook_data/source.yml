@@ -14,7 +14,9 @@ sources:
     loaded_at_field: load_timestamp
     tables:
       - name: invoice
-        freshness:        
+        freshness:  
+      - name: model_execution_log
+        freshness:          
       - name: genre
         freshness:
       - name: employee
