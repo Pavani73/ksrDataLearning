@@ -2,9 +2,9 @@
 
 CASE
 
-WHEN {{date1}} < {{date2}} then {{date2}}
+WHEN '{{date1}}' < '{{date2}}' then '{{date2}}'
 
-WHEN {{date1}} > {{date2}} then {{date1}}
+WHEN '{{date1}}' > '{{date2}}' then '{{date1}}'
 
 ELSE
 
