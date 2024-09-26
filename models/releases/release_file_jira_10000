@@ -1,0 +1,2 @@
+dbt run --select tag:jira-10000
+dbt run --select tag:jira-10001
